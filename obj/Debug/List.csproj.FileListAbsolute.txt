@@ -1,0 +1,12 @@
+D:\semester 4\p visual\Implementasioop\List\bin\Debug\List.exe.config
+D:\semester 4\p visual\Implementasioop\List\bin\Debug\List.exe
+D:\semester 4\p visual\Implementasioop\List\bin\Debug\List.pdb
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.csproj.AssemblyReference.cache
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.csproj.SuggestedBindingRedirects.cache
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.Form1.resources
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.Properties.Resources.resources
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.csproj.GenerateResource.cache
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.exe
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.pdb
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.Dashboard.resources
