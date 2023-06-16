@@ -31,5 +31,19 @@ namespace List
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnlist_Click(object sender, EventArgs e)
+        {
+
+            FormList form4 = new FormList();
+
+            // Menampilkan form lain
+            form4.Show();
+        }
     }
 }
