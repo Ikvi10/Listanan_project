@@ -36,48 +36,48 @@
             this.btnlist = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblh1 = new System.Windows.Forms.Label();
+            this.btnm1 = new System.Windows.Forms.Button();
+            this.btnt1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -96,6 +96,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(199)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button2);
@@ -125,17 +126,18 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.button2.Location = new System.Drawing.Point(744, 29);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(65, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Info";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnlist
             // 
-            this.btnlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnlist.Location = new System.Drawing.Point(673, 29);
             this.btnlist.Name = "btnlist";
             this.btnlist.Size = new System.Drawing.Size(65, 23);
@@ -156,10 +158,10 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.lbl1);
+            this.panel3.Controls.Add(this.lblh1);
+            this.panel3.Controls.Add(this.btnm1);
+            this.panel3.Controls.Add(this.btnt1);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Location = new System.Drawing.Point(12, 221);
@@ -167,39 +169,34 @@
             this.panel3.Size = new System.Drawing.Size(229, 107);
             this.panel3.TabIndex = 2;
             // 
-            // label3
+            // lblh1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(116, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = " Rp 38.000/kg";
+            this.lblh1.AutoSize = true;
+            this.lblh1.Location = new System.Drawing.Point(143, 44);
+            this.lblh1.Name = "lblh1";
+            this.lblh1.Size = new System.Drawing.Size(48, 16);
+            this.lblh1.TabIndex = 0;
+            this.lblh1.Text = " 38.000";
             // 
-            // button4
+            // btnm1
             // 
-            this.button4.Location = new System.Drawing.Point(109, 72);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(31, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "-";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnm1.Location = new System.Drawing.Point(125, 76);
+            this.btnm1.Name = "btnm1";
+            this.btnm1.Size = new System.Drawing.Size(31, 23);
+            this.btnm1.TabIndex = 1;
+            this.btnm1.Text = "-";
+            this.btnm1.UseVisualStyleBackColor = true;
+            this.btnm1.Click += new System.EventHandler(this.btnm1_Click);
             // 
-            // button3
+            // btnt1
             // 
-            this.button3.Location = new System.Drawing.Point(182, 73);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(31, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(146, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(30, 22);
-            this.textBox2.TabIndex = 0;
+            this.btnt1.Location = new System.Drawing.Point(182, 76);
+            this.btnt1.Name = "btnt1";
+            this.btnt1.Size = new System.Drawing.Size(31, 23);
+            this.btnt1.TabIndex = 0;
+            this.btnt1.Text = "+";
+            this.btnt1.UseVisualStyleBackColor = true;
+            this.btnt1.Click += new System.EventHandler(this.btnt1_Click);
             // 
             // label1
             // 
@@ -228,10 +225,10 @@
             // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.button5);
             this.panel6.Controls.Add(this.button6);
-            this.panel6.Controls.Add(this.textBox3);
             this.panel6.Controls.Add(this.label5);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Location = new System.Drawing.Point(287, 221);
@@ -242,15 +239,15 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(128, 44);
+            this.label4.Location = new System.Drawing.Point(147, 44);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 16);
+            this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Rp 18.000/kg";
+            this.label4.Text = "18.000";
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(109, 72);
+            this.button5.Location = new System.Drawing.Point(125, 72);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(31, 23);
             this.button5.TabIndex = 1;
@@ -265,13 +262,6 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "+";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(146, 73);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(30, 22);
-            this.textBox3.TabIndex = 0;
             // 
             // label5
             // 
@@ -294,10 +284,10 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.label15);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.button7);
             this.panel4.Controls.Add(this.button8);
-            this.panel4.Controls.Add(this.textBox4);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Location = new System.Drawing.Point(571, 221);
@@ -308,15 +298,15 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(129, 44);
+            this.label6.Location = new System.Drawing.Point(154, 44);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 16);
+            this.label6.Size = new System.Drawing.Size(45, 16);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Rp 38.000/kg";
+            this.label6.Text = "38.000";
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(109, 72);
+            this.button7.Location = new System.Drawing.Point(125, 73);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(31, 23);
             this.button7.TabIndex = 1;
@@ -331,13 +321,6 @@
             this.button8.TabIndex = 0;
             this.button8.Text = "+";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(146, 73);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(30, 22);
-            this.textBox4.TabIndex = 0;
             // 
             // label7
             // 
@@ -361,10 +344,10 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.label18);
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.button9);
             this.panel5.Controls.Add(this.button10);
-            this.panel5.Controls.Add(this.textBox5);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Location = new System.Drawing.Point(571, 360);
@@ -375,15 +358,15 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(129, 44);
+            this.label8.Location = new System.Drawing.Point(154, 44);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 16);
+            this.label8.Size = new System.Drawing.Size(45, 16);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Rp 13.000/kg";
+            this.label8.Text = "13.000";
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(109, 72);
+            this.button9.Location = new System.Drawing.Point(132, 72);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(31, 23);
             this.button9.TabIndex = 1;
@@ -398,13 +381,6 @@
             this.button10.TabIndex = 0;
             this.button10.Text = "+";
             this.button10.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(146, 73);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(30, 22);
-            this.textBox5.TabIndex = 0;
             // 
             // label9
             // 
@@ -427,10 +403,10 @@
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.label19);
             this.panel7.Controls.Add(this.label10);
             this.panel7.Controls.Add(this.button11);
             this.panel7.Controls.Add(this.button12);
-            this.panel7.Controls.Add(this.textBox6);
             this.panel7.Controls.Add(this.label11);
             this.panel7.Controls.Add(this.pictureBox6);
             this.panel7.Location = new System.Drawing.Point(287, 360);
@@ -441,15 +417,15 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(128, 44);
+            this.label10.Location = new System.Drawing.Point(147, 44);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(85, 16);
+            this.label10.Size = new System.Drawing.Size(45, 16);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Rp 32.500/kg";
+            this.label10.Text = "32.500";
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(109, 72);
+            this.button11.Location = new System.Drawing.Point(125, 73);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(31, 23);
             this.button11.TabIndex = 1;
@@ -464,13 +440,6 @@
             this.button12.TabIndex = 0;
             this.button12.Text = "+";
             this.button12.UseVisualStyleBackColor = true;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(146, 73);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(30, 22);
-            this.textBox6.TabIndex = 0;
             // 
             // label11
             // 
@@ -494,10 +463,10 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.label17);
             this.panel8.Controls.Add(this.label12);
             this.panel8.Controls.Add(this.button13);
             this.panel8.Controls.Add(this.button14);
-            this.panel8.Controls.Add(this.textBox7);
             this.panel8.Controls.Add(this.label13);
             this.panel8.Controls.Add(this.pictureBox7);
             this.panel8.Location = new System.Drawing.Point(12, 360);
@@ -508,15 +477,15 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(119, 44);
+            this.label12.Location = new System.Drawing.Point(143, 44);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 16);
+            this.label12.Size = new System.Drawing.Size(45, 16);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Rp 15.000/kg";
+            this.label12.Text = "15.000";
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(109, 72);
+            this.button13.Location = new System.Drawing.Point(125, 72);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(31, 23);
             this.button13.TabIndex = 1;
@@ -531,13 +500,6 @@
             this.button14.TabIndex = 0;
             this.button14.Text = "+";
             this.button14.UseVisualStyleBackColor = true;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(146, 73);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(30, 22);
-            this.textBox7.TabIndex = 0;
             // 
             // label13
             // 
@@ -569,11 +531,72 @@
             this.panel2.Size = new System.Drawing.Size(828, 100);
             this.panel2.TabIndex = 1;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(162, 76);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(14, 16);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "1";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(162, 75);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(14, 16);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "1";
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.White;
+            this.lbl1.Location = new System.Drawing.Point(162, 79);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(14, 16);
+            this.lbl1.TabIndex = 7;
+            this.lbl1.Text = "1";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(162, 75);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(14, 16);
+            this.label17.TabIndex = 3;
+            this.label17.Text = "1";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(166, 75);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(14, 16);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "1";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(162, 76);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(14, 16);
+            this.label19.TabIndex = 3;
+            this.label19.Text = "1";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(199)))));
             this.ClientSize = new System.Drawing.Size(828, 479);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel7);
@@ -618,49 +641,49 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblh1;
+        private System.Windows.Forms.Button btnm1;
+        private System.Windows.Forms.Button btnt1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnlist;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label17;
     }
 }

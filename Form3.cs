@@ -145,11 +145,7 @@ namespace List
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            DataGridViewRow[] rows = new DataGridViewRow[dataGridViewBrg.Rows.Count];
-            dataGridViewBrg.Rows.CopyTo(rows, 0);
-
-            FormList form2 = new FormList(rows);
-            form2.Show();
+           
         }
     }
 }

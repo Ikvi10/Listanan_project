@@ -13,37 +13,33 @@ using MySql.Data.MySqlClient;
 
 namespace List
 {
-    public partial class FormList : Form
+    public partial class ListBrg : Form
     {
-        private DataGridViewRow[] rows;
 
-        public FormList()
+        public ListBrg()
         {
         }
 
-        public FormList(DataGridViewRowCollection rows)
-        {
-            
-            
-        }
-
-        public FormList(DataGridViewRow[] rows)
-        {
-            InitializeComponent();
-            this.rows = rows;
-        }
+        
 
         private void FormList_Load(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow row in rows)
-            {
-                DataGridViewRow clonedRow = (DataGridViewRow)row.Clone();
-                for (int i = 0; i < row.Cells.Count; i++)
-                {
-                    clonedRow.Cells[i].Value = row.Cells[i].Value;
-                }
-                GridViewList.Rows.Add(clonedRow);
-            }
+            tampildata();
+        }
+
+        private void tampildata()
+        {
+            //mengatur koneksi ke database melalui connectionstring
+            String constring = "Server=localhost;database=db_barang;uid=root;pwd=\"\"";
+            //membuat objek koneksi ke database  (mySqlconecction)
+            MySqlConnection cnnn = new MySqlConnection(constring);
+            //membuat objek mysqldataadapter
+            MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM tbbarang", cnnn);
+            //objek dataset
+            DataSet ds = new DataSet();
+            da.Fill(ds, "barang");
+            //menampilkan data di gridview
+            GridViewList.DataSource = ds.Tables["barang"].DefaultView;
         }
     }
 }

@@ -38,4 +38,6 @@ D:\semester 4\p visual\Implementasioop\List\bin\Debug\System.Numerics.Vectors.xm
 D:\semester 4\p visual\Implementasioop\List\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\semester 4\p visual\Implementasioop\List\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.csproj.CopyComplete
-D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.FormList.resources
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.ListBrg.resources
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.ListBrang.resources
+D:\semester 4\p visual\Implementasioop\List\obj\Debug\List.InfoBrg.resources

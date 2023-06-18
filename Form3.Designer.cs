@@ -38,13 +38,12 @@
             this.btnTes = new System.Windows.Forms.Button();
             this.dataGridViewBrg = new System.Windows.Forms.DataGridView();
             this.btnUpd = new System.Windows.Forms.Button();
-            this.btnSimpan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBrg)).BeginInit();
             this.SuspendLayout();
             // 
             // btnInput
             // 
-            this.btnInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnInput.Location = new System.Drawing.Point(131, 214);
             this.btnInput.Name = "btnInput";
             this.btnInput.Size = new System.Drawing.Size(113, 35);
@@ -55,7 +54,7 @@
             // 
             // btnHps
             // 
-            this.btnHps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnHps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnHps.Location = new System.Drawing.Point(671, 288);
             this.btnHps.Name = "btnHps";
             this.btnHps.Size = new System.Drawing.Size(101, 40);
@@ -107,12 +106,13 @@
             // 
             // btnTes
             // 
+            this.btnTes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnTes.Location = new System.Drawing.Point(316, 293);
             this.btnTes.Name = "btnTes";
             this.btnTes.Size = new System.Drawing.Size(112, 31);
             this.btnTes.TabIndex = 10;
             this.btnTes.Text = "tes koneksi";
-            this.btnTes.UseVisualStyleBackColor = true;
+            this.btnTes.UseVisualStyleBackColor = false;
             this.btnTes.Click += new System.EventHandler(this.btnTes_Click);
             // 
             // dataGridViewBrg
@@ -129,7 +129,7 @@
             // 
             // btnUpd
             // 
-            this.btnUpd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnUpd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnUpd.Location = new System.Drawing.Point(131, 272);
             this.btnUpd.Name = "btnUpd";
             this.btnUpd.Size = new System.Drawing.Size(113, 35);
@@ -138,25 +138,13 @@
             this.btnUpd.UseVisualStyleBackColor = false;
             this.btnUpd.Click += new System.EventHandler(this.btnUpd_Click);
             // 
-            // btnSimpan
-            // 
-            this.btnSimpan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnSimpan.Location = new System.Drawing.Point(512, 293);
-            this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(85, 35);
-            this.btnSimpan.TabIndex = 13;
-            this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = false;
-            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
-            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::List.Properties.Resources.Logo;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(199)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.btnUpd);
             this.Controls.Add(this.dataGridViewBrg);
             this.Controls.Add(this.btnTes);
@@ -190,6 +178,5 @@
         private System.Windows.Forms.Button btnTes;
         private System.Windows.Forms.DataGridView dataGridViewBrg;
         private System.Windows.Forms.Button btnUpd;
-        private System.Windows.Forms.Button btnSimpan;
     }
 }

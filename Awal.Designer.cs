@@ -34,7 +34,7 @@
             // 
             // btnUser
             // 
-            this.btnUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnUser.Location = new System.Drawing.Point(151, 281);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(135, 47);
@@ -45,7 +45,7 @@
             // 
             // btnAdmin
             // 
-            this.btnAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(107)))), ((int)(((byte)(142)))));
             this.btnAdmin.Location = new System.Drawing.Point(511, 281);
             this.btnAdmin.Name = "btnAdmin";
             this.btnAdmin.Size = new System.Drawing.Size(135, 47);

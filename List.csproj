@@ -117,6 +117,18 @@
     <Compile Include="FormList.Designer.cs">
       <DependentUpon>FormList.cs</DependentUpon>
     </Compile>
+    <Compile Include="InfoBrg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoBrg.Designer.cs">
+      <DependentUpon>InfoBrg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBrang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBrang.Designer.cs">
+      <DependentUpon>ListBrang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Awal.resx">
@@ -133,6 +145,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormList.resx">
       <DependentUpon>FormList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoBrg.resx">
+      <DependentUpon>InfoBrg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBrang.resx">
+      <DependentUpon>ListBrang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

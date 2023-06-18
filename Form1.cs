@@ -28,7 +28,7 @@ namespace List
 
             // Menampilkan form lain
             form2.Show();
-            //this.Close();
+            this.Close();
         }
     }
 }
