@@ -114,9 +114,9 @@
             this.lblHrg.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHrg.Location = new System.Drawing.Point(674, 9);
             this.lblHrg.Name = "lblHrg";
-            this.lblHrg.Size = new System.Drawing.Size(20, 24);
+            this.lblHrg.Size = new System.Drawing.Size(60, 24);
             this.lblHrg.TabIndex = 3;
-            this.lblHrg.Text = "0";
+            this.lblHrg.Text = "69000";
             // 
             // label3
             // 
@@ -126,7 +126,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(20, 24);
             this.label3.TabIndex = 2;
-            this.label3.Text = "0";
+            this.label3.Text = "3";
             // 
             // label2
             // 
